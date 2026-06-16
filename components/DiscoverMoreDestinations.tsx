@@ -1,5 +1,5 @@
 const WA_CUSTOM =
-  'https://wa.me/919310209227?text=Hi%2C%20I%20would%20like%20to%20plan%20a%20custom%20trip.%20Please%20help%20me%20with%20destination%20options%2C%20pricing%2C%20and%20travel%20arrangements.'
+  'https://wa.me/919310209227?text=Hi%2C%20I%20would%20like%20to%20plan%20a%20trip.%20Please%20help%20me%20with%20destination%20options%2C%20pricing%2C%20and%20travel%20arrangements.'
 
 export default function DiscoverMoreDestinations() {
   return (
