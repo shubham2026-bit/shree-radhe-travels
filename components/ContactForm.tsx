@@ -72,21 +72,27 @@ export default function ContactForm() {
               {[
                 {
                   icon: <Phone className="w-5 h-5" />,
-                  label: "Call / WhatsApp",
-                  value: "+91 98765 43210",
-                  href: "tel:+919876543210",
+                  label: "Call Us",
+                  value: "+91 98103 25525",
+                  href: "tel:+919810325525",
+                },
+                {
+                  icon: <Phone className="w-5 h-5" />,
+                  label: "WhatsApp",
+                  value: "+91 93102 09227",
+                  href: "https://wa.me/919310209227?text=Hi%2C%20Shree%20Radhe%20Travels!%20%F0%9F%91%8B%0A%0AI%20am%20interested%20in%20your%20travel%20services.%20Please%20share%20more%20details%20about%20your%20tour%20packages%2C%20hotel%20bookings%2C%20and%20travel%20options.%0A%0AThank%20you.",
                 },
                 {
                   icon: <Mail className="w-5 h-5" />,
                   label: "Email Us",
-                  value: "info@shreeradhetravels.com",
-                  href: "mailto:info@shreeradhetravels.com",
+                  value: "shubham03503@gmail.com",
+                  href: "mailto:shubham03503@gmail.com",
                 },
                 {
                   icon: <MapPin className="w-5 h-5" />,
                   label: "Our Office",
-                  value: "Mathura, Uttar Pradesh, India",
-                  href: "#",
+                  value: "Sector-6, RK Puram, New Delhi, India",
+                  href: "https://maps.app.goo.gl/AnEinrU2xPMPaMPg6",
                 },
                 {
                   icon: <Clock className="w-5 h-5" />,
@@ -107,16 +113,17 @@ export default function ContactForm() {
               ))}
             </div>
 
-            <div className="rounded-2xl overflow-hidden h-52 border border-[var(--border)]">
+            <div className="rounded-2xl overflow-hidden h-64 border border-[var(--border)] shadow-sm">
               <iframe
-                title="Shree Radhe Travels Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56982.81374174862!2d77.6279498!3d27.4925174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397371b069804b27%3A0x77c72e86c09dfd8f!2sMathura%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                title="Shree Radhe Travels — Sector-6, RK Puram, New Delhi"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.663!2d77.1855!3d28.5635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d5f2db34fa5%3A0x3a2c7f56c24c10e0!2sSector%206%2C%20RK%20Puram%2C%20New%20Delhi%2C%20Delhi%20110022!5e0!3m2!1sen!2sin!4v1718000000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                aria-label="Map showing Shree Radhe Travels office at Sector-6, RK Puram, New Delhi"
               />
             </div>
           </div>

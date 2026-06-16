@@ -3,10 +3,10 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/919876543210?text=Hi%20Shree%20Radhe%20Travels%2C%20I%20need%20help%20with%20a%20trip."
+      href="https://wa.me/919310209227?text=Hi%2C%20Shree%20Radhe%20Travels!%20%F0%9F%91%8B%0A%0AI%20am%20interested%20in%20your%20travel%20services.%20Please%20share%20more%20details%20about%20your%20tour%20packages%2C%20hotel%20bookings%2C%20and%20travel%20options.%0A%0AThank%20you."
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Chat on WhatsApp"
+      aria-label="Chat on WhatsApp with Shree Radhe Travels on +91 93102 09227"
       className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] shadow-lg hover:bg-[#1ebe5d] flex items-center justify-center transition-all hover:scale-110 focus:outline-none focus:ring-4 focus:ring-[#25D366]/40"
     >
       <svg

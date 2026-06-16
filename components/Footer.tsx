@@ -117,33 +117,54 @@ export default function Footer() {
             <h4 className="font-semibold text-sm uppercase tracking-widest text-gold mb-5">Contact Us</h4>
             <ul className="flex flex-col gap-4">
               <li>
-                <a href="tel:+919876543210" className="flex items-start gap-3 group">
+                <a href="tel:+919810325525" className="flex items-start gap-3 group">
                   <Phone className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
                   <span className="text-white/70 group-hover:text-gold text-sm transition-colors">
-                    +91 98765 43210
+                    +91 98103 25525
                   </span>
                 </a>
               </li>
               <li>
-                <a href="mailto:info@shreeradhetravels.com" className="flex items-start gap-3 group">
-                  <Mail className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
+                <a
+                  href="https://wa.me/919310209227?text=Hi%2C%20Shree%20Radhe%20Travels!%20%F0%9F%91%8B%0A%0AI%20am%20interested%20in%20your%20travel%20services.%20Please%20share%20more%20details%20about%20your%20tour%20packages%2C%20hotel%20bookings%2C%20and%20travel%20options.%0A%0AThank%20you."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 group"
+                >
+                  <Phone className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
                   <span className="text-white/70 group-hover:text-gold text-sm transition-colors">
-                    info@shreeradhetravels.com
+                    +91 93102 09227
                   </span>
                 </a>
               </li>
-              <li className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
-                <span className="text-white/70 text-sm">
-                  Mathura, Uttar Pradesh, India — 281001
-                </span>
+              <li>
+                <a href="mailto:shubham03503@gmail.com" className="flex items-start gap-3 group">
+                  <Mail className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
+                  <span className="text-white/70 group-hover:text-gold text-sm transition-colors">
+                    shubham03503@gmail.com
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/AnEinrU2xPMPaMPg6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 group"
+                >
+                  <MapPin className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
+                  <span className="text-white/70 group-hover:text-gold text-sm transition-colors">
+                    Sector-6, RK Puram,<br />New Delhi, India — 110022
+                  </span>
+                </a>
               </li>
             </ul>
 
             <a
-              href="https://wa.me/919876543210?text=Hi%20Shree%20Radhe%20Travels%2C%20I%20need%20help%20with%20a%20trip."
+              href="https://wa.me/919310209227?text=Hi%2C%20Shree%20Radhe%20Travels!%20%F0%9F%91%8B%0A%0AI%20am%20interested%20in%20your%20travel%20services.%20Please%20share%20more%20details%20about%20your%20tour%20packages%2C%20hotel%20bookings%2C%20and%20travel%20options.%0A%0AThank%20you."
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Chat on WhatsApp with Shree Radhe Travels"
               className="mt-6 inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white px-4 py-2.5 rounded-full text-sm font-semibold transition-colors"
             >
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
