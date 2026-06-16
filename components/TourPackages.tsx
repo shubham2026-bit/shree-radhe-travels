@@ -7,7 +7,7 @@ const packages = [
     badge: 'MOST POPULAR',
     description: "Explore India's Heritage",
     image: '/images/golden-triangle.png',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20am%20interested%20in%20the%20Golden%20Triangle%20tour%20package.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Golden%20Triangle%20(Delhi%20%C2%B7%20Agra%20%C2%B7%20Jaipur).%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
   {
     title: 'Himalayan Escape',
@@ -15,7 +15,7 @@ const packages = [
     badge: 'TRENDING',
     description: 'Hills, snow & pine forests',
     image: '/images/himalayan-escape.png',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20am%20interested%20in%20the%20Himalayan%20Escape%20tour%20package.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Himalayan%20Escape%20(Shimla%20%C2%B7%20Manali%20%C2%B7%20Kasol).%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
   {
     title: 'Spiritual Journey',
@@ -23,7 +23,7 @@ const packages = [
     badge: 'SACRED',
     description: 'Aarti, temples & ghats',
     image: '/images/spiritual-journey.png',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20am%20interested%20in%20the%20Spiritual%20Journey%20tour%20package.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Spiritual%20Journey%20(Haridwar%20%C2%B7%20Rishikesh%20%C2%B7%20Mathura).%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
   {
     title: 'Royal Rajasthan',
@@ -31,7 +31,7 @@ const packages = [
     badge: 'LUXURY',
     description: 'Forts, palaces & deserts',
     image: '/images/royal-rajasthan.png',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20am%20interested%20in%20the%20Royal%20Rajasthan%20tour%20package.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Royal%20Rajasthan%20(Udaipur%20%C2%B7%20Jodhpur%20%C2%B7%20Jaisalmer).%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
   {
     title: 'Kashmir Paradise',
@@ -39,7 +39,7 @@ const packages = [
     badge: 'PREMIUM',
     description: 'Dal Lake & alpine meadows',
     image: '/images/kashmir-paradise.png',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20am%20interested%20in%20the%20Kashmir%20Paradise%20tour%20package.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Kashmir%20Paradise%20(Srinagar%20%C2%B7%20Gulmarg%20%C2%B7%20Pahalgam).%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
   {
     title: 'Char Dham Yatra',
@@ -47,7 +47,7 @@ const packages = [
     badge: 'PILGRIMAGE',
     description: 'Sacred pilgrimage circuit',
     image: '/images/char-dham.png',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20am%20interested%20in%20the%20Char%20Dham%20Yatra%20tour%20package.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20for%20Char%20Dham%20Yatra%20(Yamunotri%20%C2%B7%20Gangotri%20%C2%B7%20Kedarnath%20%C2%B7%20Badrinath).%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
 ]
 

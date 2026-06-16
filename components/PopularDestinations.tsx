@@ -3,37 +3,37 @@ const destinations = [
     icon: '🕌',
     name: 'Agra',
     description: 'Taj Mahal & Mughal heritage',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Agra.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Agra.%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
   {
     icon: '🏰',
     name: 'Jaipur',
     description: 'Pink City forts & palaces',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Jaipur.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Jaipur.%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
   {
     icon: '🛕',
     name: 'Haridwar',
     description: 'Holy Ganga aarti & temples',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Haridwar.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Haridwar.%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
   {
     icon: '⛰️',
     name: 'Shimla',
     description: 'Hills, pine forests, toy train',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Shimla.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Shimla.%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
   {
     icon: '🪷',
     name: 'Mathura',
     description: "Krishna's birthplace & ghats",
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Mathura.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Mathura.%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
   {
     icon: '🌊',
     name: 'Manali',
     description: 'Snow peaks & adventure',
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Manali.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20a%20trip%20to%20Manali.%20Please%20share%20package%20details%2C%20pricing%2C%20and%20availability.',
   },
 ]
 

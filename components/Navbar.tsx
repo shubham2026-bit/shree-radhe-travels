@@ -13,6 +13,7 @@ const navLinks = [
   { label: 'Fleet', href: '#fleet' },
   { label: 'Destinations', href: '#destinations' },
   { label: 'Testimonials', href: '#testimonials' },
+  { label: 'Enquiry', href: '/enquiry' },
   { label: 'Contact Us', href: '#contact' },
 ]
 
@@ -76,9 +77,9 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="tel:+919876543210"
+            href="tel:+919810325525"
             className="flex items-center gap-2 bg-gold text-navy text-sm font-bold px-4 py-2 rounded-full hover:bg-yellow-500 transition-colors shadow"
-            aria-label="Call Shree Radhe Travels"
+            aria-label="Call Shree Radhe Travels on 9810325525"
           >
             <Phone size={15} strokeWidth={2.5} />
             Call Now
@@ -110,11 +111,11 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="tel:+919876543210"
+            href="tel:+919810325525"
             className="flex items-center justify-center gap-2 bg-gold text-navy text-sm font-bold px-4 py-3 rounded-full mt-3"
           >
             <Phone size={15} />
-            +91 98765 43210
+            9810325525
           </a>
         </div>
       )}

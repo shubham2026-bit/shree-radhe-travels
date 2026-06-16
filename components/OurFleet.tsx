@@ -4,28 +4,28 @@ const fleet = [
     name: 'Sedan',
     capacity: '4 passengers',
     models: ['Dzire / Etios', 'AC', 'Boot space'],
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20want%20to%20book%20a%20Sedan%20(Dzire%2FEtios).',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20this%20vehicle%20for%20my%20trip%20(Sedan%20-%20Dzire%2FEtios).%20Please%20share%20availability%2C%20pricing%2C%20and%20vehicle%20details.',
   },
   {
     icon: '🚙',
     name: 'SUV',
     capacity: '6 passengers',
     models: ['Ertiga / XL6', 'Spacious', 'Comfortable'],
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20want%20to%20book%20an%20SUV%20(Ertiga%2FXL6).',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20this%20vehicle%20for%20my%20trip%20(SUV%20-%20Ertiga%2FXL6).%20Please%20share%20availability%2C%20pricing%2C%20and%20vehicle%20details.',
   },
   {
     icon: '🚐',
     name: 'Innova Crysta',
     capacity: '7 passengers',
     models: ['Premium ride', 'Captain seats', 'Long trips'],
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20want%20to%20book%20an%20Innova%20Crysta.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20this%20vehicle%20for%20my%20trip%20(Innova%20Crysta).%20Please%20share%20availability%2C%20pricing%2C%20and%20vehicle%20details.',
   },
   {
     icon: '🚌',
     name: 'Tempo Traveller',
     capacity: '12–17 passengers',
     models: ['Group travel', 'Push-back seats', 'AC'],
-    whatsapp: 'https://wa.me/919810325525?text=Hi%2C%20I%20want%20to%20book%20a%20Tempo%20Traveller.',
+    whatsapp: 'https://wa.me/919310209227?text=Hi%2C%20I%20want%20to%20book%20this%20vehicle%20for%20my%20trip%20(Tempo%20Traveller).%20Please%20share%20availability%2C%20pricing%2C%20and%20vehicle%20details.',
   },
 ]
 
@@ -67,9 +67,9 @@ export default function OurFleet() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-auto block text-center bg-[var(--navy)] hover:bg-[var(--gold)] text-white text-sm font-semibold py-2.5 rounded-xl transition-colors"
-                aria-label={`Book ${car.name}`}
+                aria-label={`Book ${car.name} via WhatsApp`}
               >
-                Book Now
+                Book via WhatsApp
               </a>
             </div>
           ))}
