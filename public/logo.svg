@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="96" stroke="#1a3a6b" stroke-width="4" fill="white"/>
+  <!-- Inner circle decorative ring -->
+  <circle cx="100" cy="100" r="88" stroke="#d4a017" stroke-width="1.5" fill="none" stroke-dasharray="4 3"/>
+
+  <!-- Road winding -->
+  <path d="M60 170 Q80 140 90 120 Q100 100 120 80 Q130 70 140 55" stroke="#1a3a6b" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.2"/>
+  <path d="M65 170 Q85 140 95 120 Q105 100 125 80 Q135 70 145 55" stroke="#d4a017" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4" stroke-dasharray="8 6"/>
+
+  <!-- Lotus at bottom -->
+  <path d="M100 158 Q97 152 100 148 Q103 152 100 158Z" fill="#1a3a6b" opacity="0.7"/>
+  <path d="M100 158 Q93 152 90 146 Q95 146 100 148Z" fill="#1a3a6b" opacity="0.7"/>
+  <path d="M100 158 Q107 152 110 146 Q105 146 100 148Z" fill="#1a3a6b" opacity="0.7"/>
+  <path d="M100 158 Q88 155 85 150 Q90 148 95 150Z" fill="#d4a017" opacity="0.7"/>
+  <path d="M100 158 Q112 155 115 150 Q110 148 105 150Z" fill="#d4a017" opacity="0.7"/>
+
+  <!-- Peacock feather hint -->
+  <ellipse cx="120" cy="55" rx="4" ry="10" fill="#1a3a6b" transform="rotate(-30 120 55)" opacity="0.6"/>
+  <ellipse cx="120" cy="55" rx="2" ry="5" fill="#d4a017" transform="rotate(-30 120 55)" opacity="0.8"/>
+
+  <!-- SR Monogram text -->
+  <text x="100" y="88" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#1a3a6b" letter-spacing="1">SR</text>
+  <!-- Company name -->
+  <text x="100" y="108" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-weight="600" fill="#1a3a6b" letter-spacing="2">SHREE RADHE</text>
+  <text x="100" y="122" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#d4a017" letter-spacing="3">TRAVELS</text>
+  <!-- Hindi text -->
+  <text x="100" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1a3a6b" opacity="0.8">श्री राधे ट्रेवल्स</text>
+</svg>

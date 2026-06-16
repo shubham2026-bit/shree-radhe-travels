@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-sans), 'Inter Fallback', system-ui, sans-serif;
+  --font-heading: var(--font-heading), 'Playfair Display Fallback', Georgia, serif;
+  --font-mono: 'Courier New', monospace;
+
+  /* Brand colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-destructive: var(--destructive);
+  --color-navy: var(--navy);
+  --color-gold: var(--gold);
+  --color-cream: var(--cream);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+}
+
+:root {
+  color-scheme: light;
+
+  /* Core palette: Navy, Gold, Cream, Dark, Light */
+  --navy: #1a3a6b;
+  --gold: #d4a017;
+  --cream: #f9f5ec;
+
+  --background: #ffffff;
+  --foreground: #0f1f3d;
+  --card: #ffffff;
+  --card-foreground: #0f1f3d;
+  --primary: #1a3a6b;
+  --primary-foreground: #ffffff;
+  --secondary: #d4a017;
+  --secondary-foreground: #0f1f3d;
+  --muted: #f3ede0;
+  --muted-foreground: #6b7280;
+  --accent: #d4a017;
+  --accent-foreground: #0f1f3d;
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: #e5ddd0;
+  --input: #e5ddd0;
+  --ring: #1a3a6b;
+  --radius: 0.625rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans scroll-smooth;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-heading);
+  }
+}
