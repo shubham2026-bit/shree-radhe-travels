@@ -70,7 +70,7 @@ export default function ServicesAndWhyUs() {
   return (
     <>
       {/* Services Section */}
-      <section className="py-20 bg-white" aria-labelledby="services-heading">
+      <section id="services" className="py-20 bg-white" aria-labelledby="services-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-14">
             <p className="text-[var(--gold)] text-xs font-semibold tracking-widest uppercase mb-2">

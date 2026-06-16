@@ -72,7 +72,12 @@
   html {
     @apply font-sans scroll-smooth;
   }
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
     font-family: var(--font-heading);
+  }
+
+  /* Smooth scroll offset for fixed navbar */
+  [id] {
+    scroll-margin-top: 80px;
   }
 }

@@ -39,7 +39,7 @@ const destinations = [
 
 export default function PopularDestinations() {
   return (
-    <section className="py-20 bg-[var(--cream)]" aria-labelledby="destinations-heading">
+    <section id="destinations" className="py-20 bg-[var(--cream)]" aria-labelledby="destinations-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-14">
           <p className="text-[var(--gold)] text-xs font-semibold tracking-widest uppercase mb-2">

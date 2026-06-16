@@ -34,7 +34,7 @@ function Stars({ count }: { count: number }) {
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-[var(--navy)]" aria-labelledby="testimonials-heading">
+    <section id="testimonials" className="py-20 bg-[var(--navy)]" aria-labelledby="testimonials-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-14">
           <p className="text-[var(--gold)] text-xs font-semibold tracking-widest uppercase mb-2">
