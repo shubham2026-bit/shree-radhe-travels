@@ -37,7 +37,7 @@ export default function HeroSection() {
 
             <div className="flex flex-wrap gap-3 mb-10">
               <a
-                href="#contact"
+                href="/enquiry"
                 className="bg-[var(--gold)] hover:bg-amber-600 text-white font-semibold px-7 py-3 rounded-full transition-colors shadow-lg"
               >
                 Book Now
@@ -51,11 +51,11 @@ export default function HeroSection() {
                 9810325525
               </a>
               <a
-                href="https://wa.me/919810325525"
+                href="https://wa.me/919310209227?text=Hi%2C%20Shree%20Radhe%20Travels!%20%F0%9F%91%8B%0A%0AI%20am%20interested%20in%20your%20travel%20services.%20Please%20share%20more%20details%20about%20your%20tour%20packages%2C%20hotel%20bookings%2C%20and%20travel%20options.%0A%0AThank%20you."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-[#25D366] hover:bg-green-600 text-white font-semibold px-5 py-3 rounded-full transition-colors shadow-lg"
-                aria-label="WhatsApp Us"
+                aria-label="WhatsApp +91 93102 09227"
               >
                 <MessageCircle size={16} />
                 WhatsApp Us
@@ -97,7 +97,7 @@ export default function HeroSection() {
               ))}
             </ul>
             <a
-              href="#contact"
+              href="/enquiry"
               className="block w-full text-center bg-[var(--gold)] hover:bg-amber-600 text-white font-semibold py-3 rounded-xl transition-colors text-sm"
             >
               Get a Quote →

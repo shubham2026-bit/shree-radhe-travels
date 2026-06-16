@@ -6,6 +6,7 @@ import TourPackages from '@/components/TourPackages'
 import ServicesAndWhyUs from '@/components/ServicesAndWhyUs'
 import OurFleet from '@/components/OurFleet'
 import PopularDestinations from '@/components/PopularDestinations'
+import DiscoverMoreDestinations from '@/components/DiscoverMoreDestinations'
 import Testimonials from '@/components/Testimonials'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
@@ -23,6 +24,7 @@ export default function Page() {
         <ServicesAndWhyUs />
         <OurFleet />
         <PopularDestinations />
+        <DiscoverMoreDestinations />
         <Testimonials />
         <ContactForm />
       </main>

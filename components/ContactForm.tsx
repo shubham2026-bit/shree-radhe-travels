@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from "lucide-react";
+import { MapPin, Phone, Clock, Send, CheckCircle } from "lucide-react";
 
 export default function ContactForm() {
   const [form, setForm] = useState({
@@ -83,12 +83,6 @@ export default function ContactForm() {
                   href: "https://wa.me/919310209227?text=Hi%2C%20Shree%20Radhe%20Travels!%20%F0%9F%91%8B%0A%0AI%20am%20interested%20in%20your%20travel%20services.%20Please%20share%20more%20details%20about%20your%20tour%20packages%2C%20hotel%20bookings%2C%20and%20travel%20options.%0A%0AThank%20you.",
                 },
                 {
-                  icon: <Mail className="w-5 h-5" />,
-                  label: "Email Us",
-                  value: "shubham03503@gmail.com",
-                  href: "mailto:shubham03503@gmail.com",
-                },
-                {
                   icon: <MapPin className="w-5 h-5" />,
                   label: "Our Office",
                   value: "Sector-6, RK Puram, New Delhi, India",
@@ -135,7 +129,11 @@ export default function ContactForm() {
                 <CheckCircle className="w-16 h-16 text-[var(--gold)]" />
                 <h3 className="font-heading text-2xl font-bold text-[var(--navy)]">Enquiry Sent!</h3>
                 <p className="text-[var(--muted-foreground)] max-w-sm text-sm">
-                  Thank you! Our travel expert will call you within 2 hours to plan your journey.
+                  Thank you for your enquiry. Our team will contact you shortly to assist with your
+                  travel requirements. For immediate assistance, call{" "}
+                  <a href="tel:9810325525" className="font-semibold text-[var(--navy)]">9810325525</a>{" "}
+                  or chat with us on WhatsApp at{" "}
+                  <a href="https://wa.me/919310209227?text=Hi%2C%20Shree%20Radhe%20Travels!%20%F0%9F%91%8B%0A%0AI%20am%20interested%20in%20your%20travel%20services.%20Please%20share%20more%20details%20about%20your%20tour%20packages%2C%20hotel%20bookings%2C%20and%20travel%20options.%0A%0AThank%20you." target="_blank" rel="noopener noreferrer" className="font-semibold text-[var(--navy)]">+91 93102 09227</a>.
                 </p>
                 <button
                   onClick={() => setStatus("idle")}
@@ -204,7 +202,10 @@ export default function ContactForm() {
                 </div>
 
                 {status === "error" && (
-                  <p className="text-sm text-red-500">Something went wrong. Please try again or call us directly.</p>
+                  <p className="text-sm text-red-500">
+                    Something went wrong. Please try again or{" "}
+                    <a href="tel:9810325525" className="underline font-semibold">call 9810325525</a>.
+                  </p>
                 )}
 
                 <button type="submit" disabled={status === "loading"}

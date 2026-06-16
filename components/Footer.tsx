@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -134,14 +134,6 @@ export default function Footer() {
                   <Phone className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
                   <span className="text-white/70 group-hover:text-gold text-sm transition-colors">
                     +91 93102 09227
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="mailto:shubham03503@gmail.com" className="flex items-start gap-3 group">
-                  <Mail className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
-                  <span className="text-white/70 group-hover:text-gold text-sm transition-colors">
-                    shubham03503@gmail.com
                   </span>
                 </a>
               </li>
