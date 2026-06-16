@@ -78,7 +78,7 @@ export default function AboutSection() {
                 Call 9810325525
               </a>
               <a
-                href="#contact"
+                href="/#contact"
                 className="border-2 border-[var(--navy)] text-[var(--navy)] hover:bg-[var(--navy)] hover:text-white font-semibold px-5 py-3 rounded-full transition-colors text-sm"
               >
                 Get a Quote
